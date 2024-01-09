@@ -11,5 +11,5 @@ def max_integer(my_list=[]):
         if my_list[i] < my_list[i+1]:
             continue
         else:
-            print(i)
-        i = i +1
+            print("Max:", i)
+        i = i + 1
