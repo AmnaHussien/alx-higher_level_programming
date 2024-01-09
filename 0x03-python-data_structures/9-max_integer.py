@@ -1,4 +1,5 @@
-#include "lists.h"
+#!/usr/bin/python3
+
 /**
   * max_integer - function that finds the biggest integer of alist
   * my_list: lists
