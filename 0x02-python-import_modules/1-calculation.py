@@ -5,6 +5,7 @@ if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     i = 10
     j = 5
+
     print("{} + {} = {}".format(i, j, add(i, j)))
     print("{} - {} = {}".format(i, j, sub(i, j)))
     print("{} * {} = {}".format(i, j, mul(i, j)))
