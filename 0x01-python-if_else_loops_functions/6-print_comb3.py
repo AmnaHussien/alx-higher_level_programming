@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 for digit in range(0, 10):
         for ch in range(0, 10):
              if digit == ch or digit > ch:
