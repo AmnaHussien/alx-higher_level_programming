@@ -1,4 +1,6 @@
 #!/usr/bin/python3
 class Square:
-    def __init__(self):
-        print(dir(Square))
+
+    def __init__(self)
+            pass
+print(dir(Square))
