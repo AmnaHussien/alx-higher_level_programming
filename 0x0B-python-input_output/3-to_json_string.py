@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-improt json
+import json
 """
 function to convert into json
 """
