@@ -6,6 +6,6 @@ function to append in file
 
 def append_write(filename="", text=""):
     """ contains append in file and retrn the number of added character"""
-    with open(filename, "a", encoding="utf-8") as file:
-        data = file.append(text)
+    with open(filename, "a", encoding="utf=8") as file:
+        data = file.appending(text)
         return(data)
