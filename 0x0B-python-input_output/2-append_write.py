@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+"""
+function to append in file
+"""
+
+
+def append_write(filename="", text=""):
+    """ contains append in file and writern the number of added character"""
+    with open(filename, "a", encoding="utf=8") as file:
+        data = file.append(text)
+        return(data)
