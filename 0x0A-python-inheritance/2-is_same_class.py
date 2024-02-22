@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""
+if same or not
+"""
+
+
 def is_same_class(obj, a_class):
-    if obj isinstance(a_class):
-        return (f"{obj} is an instance of the {a_class}")
-    else:
-        return(False)
+    """ determine if same class or not """
+        return (type(obj) == a_class)
